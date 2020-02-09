@@ -1,0 +1,4 @@
+* viable in first round, receiving less votes in final alignment
+-> this is partially checked in lessfinalcandidate.py, but I don't have a function to check for viability since I don't understand/know all the different weird requirements
+* check for SDE allocation sum differences to how many a precinct actually had to give out
+* and follow-up, check how many SDEs each candidate should have had

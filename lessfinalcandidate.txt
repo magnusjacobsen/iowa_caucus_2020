@@ -1,0 +1,13 @@
+fewer final than first alignments for a candidate receiving SDEs (amount: 12):
+OC1 (Sioux, 947931), incorrect: ['warrene (fst: 28, fin: 26, sde: 0.35)'] --> (68)
+CL21 (Clinton, 946832), incorrect: ['sandersb (fst: 26, fin: 20, sde: 0.4429)'] --> (137)
+GR (Wapello, 948029), incorrect: ['bidenj (fst: 7, fin: 5, sde: 0.09)'] --> (184)
+43 (Woodbury, 948176), incorrect: ['sandersb (fst: 3, fin: 0, sde: 0.2125)'] --> (233)
+6 (Winneshiek, 948132), incorrect: ['sandersb (fst: 38, fin: 0, sde: 0.256)'] --> (296)
+WM223 (Dallas, 1593485), incorrect: ['warrene (fst: 29, fin: 26, sde: 0.4143)'] --> (547)
+GR (Johnson, 947204), incorrect: ['klobuchara (fst: 13, fin: 0, sde: 0.405)'] --> (679)
+OR (Muscatine, 947541), incorrect: ['warrene (fst: 3, fin: 0, sde: 0.1667)'] --> (812)
+G000 (Black Hawk, 1593427), incorrect: ['klobuchara (fst: 6, fin: 1, sde: 0.202)'] --> (830)
+FM2 (Lee, 947307), incorrect: ['buttigiegp (fst: 36, fin: 34, sde: 0.56)'] --> (997)
+MU08 (Muscatine, 947538), incorrect: ['yanga (fst: 4, fin: 1, sde: 0.1667)'] --> (1025)
+D34 (Scott, 947879), incorrect: ['bidenj (fst: 26, fin: 25, sde: 0.4133)', 'other (fst: 1, fin: 0, sde: 0.4133)'] --> (1722)

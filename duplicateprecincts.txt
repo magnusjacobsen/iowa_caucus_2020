@@ -1,0 +1,4 @@
+equal first and final alignments, with more than 10 caucus attendees (amount: 3):
+D52 (Scott, 947885) AND B52 (Scott, 947860) --> (60, 62)
+20 (Woodbury, 948153) AND 5 (Woodbury, 948138) --> (1445, 1448)
+BG (Scott, 947861) AND D31 (Scott, 947876) --> (1716, 1732)
