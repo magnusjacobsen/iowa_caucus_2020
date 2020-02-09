@@ -14,14 +14,12 @@ for i, precinct1 in enumerate(data['precincts']):
     id1 = precinct1['precinct_id']
     first1 = precinct1['results_align1']
     final1 = precinct1['results_alignfinal']
-    result1 = precinct1['results']
     for j, precinct2 in enumerate(data['precincts']):
         pname2 = precinct2['precinct']
         lname2 = precinct2['locality_name']
         id2 = precinct2['precinct_id']
         first2 = precinct2['results_align1']
         final2 = precinct2['results_alignfinal']
-        result2 = precinct2['results']
         if lname2 is not lname1 and id1 is not id2 and int(precinct2['votes_align1']) > 10:
             if first1 == first2 and final1 == final2:
                 s = f'{pname1} ({lname1}, {id1}) AND {pname2} ({lname2}, {id2}) --> ({i}, {j})'
