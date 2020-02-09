@@ -11,14 +11,12 @@ for i, precinct in enumerate(data['precincts']):
     pname = precinct['precinct']
     lname = precinct['locality_name']
     id = precinct['precinct_id']
-    # first = sum(precinct['results_align1'].values())
     final = [(key, val) for (key, val) in precinct['results_alignfinal'].items()]
     result = [(key, val) for (key, val) in precinct['results'].items()]
-    #final.sort(key=lambda tup: tup[1])
-    #result.sort(key=lambda tup: tup[1])
     incorrect = set()
     for j in range(len(final)):
         for k in range(len(final)):
+            # checking if someone with fewer final alignment votes got more SDEs
             if final[j][1] < final[k][1] and result[j][1] > result[k][1]:
                 incorrect.add(f'{result[j][0]} (f: {final[j][1]}, sde: {result[j][1]})')
                 incorrect.add(f'{result[k][0]} (f: {final[k][1]}, sde: {result[k][1]})')

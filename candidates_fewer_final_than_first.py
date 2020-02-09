@@ -16,7 +16,6 @@ for i, precinct in enumerate(data['precincts']):
     final = [(k,v) for (k,v) in precinct['results_alignfinal'].items()]
     result = [(k,v) for (k,v) in precinct['results'].items()]
     incorrect = []
-
     for j in range(len(final)):
         if first[j][1] > final[j][1] and result[j][1] > 0:
             incorrect.append(f'{first[j][0]} (fst: {first[j][1]}, fin: {final[j][1]}, sde: {result[j][1]})')

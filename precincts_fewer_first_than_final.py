@@ -13,7 +13,6 @@ for i, precinct in enumerate(data['precincts']):
     id = precinct['precinct_id']
     first = sum(precinct['results_align1'].values())
     final = sum(precinct['results_alignfinal'].values())
-    result = precinct['results']
     if first < final:
         s = f'{pname} ({lname}, {id}), first: {first}, final: {final} --> ({i})'
         weird.append(s)
